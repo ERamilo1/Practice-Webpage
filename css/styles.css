@@ -8,6 +8,7 @@ body {
 
 h1 {
     font-size: 3rem;
+    text-align: center;
 }
 
 h2 {
@@ -20,6 +21,9 @@ header > img {
     margin-right: auto;
     max-width: 100%;
     max-height: auto;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: #787ca8;
 }
 
 section {
@@ -37,4 +41,18 @@ nav ul {
 
 nav li {
     display: inline-block;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
 }
