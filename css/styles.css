@@ -10,9 +10,19 @@ body {
 h1 {
     font-size: 3rem;
     text-align: center;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+h1 + p {
+    text-align: center;
+    font-size: 15pt;
 }
 
 h2 {
+    text-align: center;
     font-size: 2rem;
 }
 
@@ -37,12 +47,20 @@ header img {
 
 }
 
+img[class="collections"] {
+    max-width: 96%;
+    max-height: auto;
+    display: block;
+    margin: auto;
+}
+
 section {
     display: flex;
 }
 
 article {
     flex: 1;
+    justify-content: center;
 }
 
 nav ul {
